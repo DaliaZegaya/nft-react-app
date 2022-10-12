@@ -77,8 +77,7 @@ const Footer = () => {
               </h2>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptate, quod repellat! Quis quos dolorum tenetur fuga?
-                Aspernatur rerum quae amet.
+                Voluptate, quod repellat! Quis quos dolorum tenetur fuga.
               </p>
             </div>
           </Col>
@@ -150,9 +149,8 @@ const Footer = () => {
 
           <Col lg="12" className=" mt-4 text-center">
             <p className="copyright">
-              {" "}
-              Copyrights 2022, Developed by Muhibur Rahman. @Muhib's Tech Diary
-              All Rights Reserved.{" "}
+              Copyrights 2022, Developed by Dalia Zegaya
+              All Rights Reserved.
             </p>
           </Col>
         </Row>
