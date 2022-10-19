@@ -1,7 +1,7 @@
 import "./Seller-section.css";
 import React from "react";
 import {Container, Row, Col} from 'reactstrap'
-import { SELLER__DATA } from "../../../data/data";
+import {SELLER__DATA} from "../../../data/data";
 
 function SellerSection() {
   return (

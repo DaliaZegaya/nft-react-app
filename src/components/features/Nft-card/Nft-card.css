@@ -1,0 +1,22 @@
+@media only screen and (max-width: 992px) {
+    .nft_title{
+        font-family: 0.8rem !important;
+    }
+
+    .creator_info h6{
+        font-size: .6rem !important;
+    }
+
+    .creator_info p{
+        font-size: 0.7rem !important;
+    }
+    
+    .bid_btn {
+        padding: 4px 20px !important;
+        font-size: 0.8rem;
+    }
+
+    .history_link a{
+        font-size: 0.8rem !important;
+    }
+}

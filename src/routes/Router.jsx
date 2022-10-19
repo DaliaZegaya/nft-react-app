@@ -14,7 +14,7 @@ import Wallet from '../components/pages/Wallet/Wallet.component'
 function Router(){
     return (
         <Routes>
-        <Route path="/" element={<Navigate to={<Home/>}/>} />
+        <Route path="/" element={<Home/>} />
         <Route path="/home" element={<Home />} />
         <Route path="/market" element= {<Market/>} />
         <Route path="/create" element={<Create/>} />
@@ -23,7 +23,7 @@ function Router(){
         <Route path="/edit-profile" element={<EditProfile/>} />
         <Route path="/seller-profile" element={<SellerProfile/>} />
         <Route path="/wallet" element={<Wallet/>} />
-        <Route path="/market:id" element={<NftDetails/>} />
+        <Route path="/market/:id" element={<NftDetails/>} />
       </Routes>
 
     )

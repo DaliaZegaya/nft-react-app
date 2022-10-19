@@ -22,11 +22,11 @@ function HeroSection() {
 
               <div className="hero_btns d-flex align-items-center gap-4">
                 <button className="explore_btn d-flex align-items-center gap-2">
-                  <i class="ri-rocket-line"></i>
+                  <i className="ri-rocket-line"></i>
                   <Link to="/market">Explore</Link>
                 </button>
                 <button className="create_btn d-flex align-items-center gap-2">
-                  <i class="ri-ball-pen-line"></i>
+                  <i className="ri-ball-pen-line"></i>
                   <Link to="/create">Create</Link>
                 </button>
 

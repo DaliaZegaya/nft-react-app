@@ -14,7 +14,7 @@ function TrendingSection() {
           </Col>
 
           {
-            NFT__DATA.slice(0,8).map(item=>
+            NFT__DATA.slice(4,12).map(item=>
               <Col lg="3" md="4" sm="6" key={item.id} className="mb-4">
               <NftCard item={item}/>
               </Col>

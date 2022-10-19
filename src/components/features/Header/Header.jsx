@@ -35,7 +35,7 @@ function Header() {
         <div className="navigation">
           <div className="logo">
             <h2 className="d-flex gap-2 align-item-center">
-              <span><i class="ri-fire-fill"></i></span>
+              <span><i className="ri-fire-fill"></i></span>
               NFT's
             </h2>
           </div>
@@ -56,13 +56,13 @@ function Header() {
 
           <div className="nav__right d-flex align-items-center gap-5">
             <button className="btn d-flex gap-2 align-items-center">
-            <span><i class="ri-wallet-line"></i></span>
+            <span><i className="ri-wallet-line"></i></span>
               <Link to="wallet">
                 Connect Wallet
               </Link>
             </button>
 
-            <span className="mobile_menu"><i class="ri-menu-line"></i></span>
+            <span className="mobile_menu"><i className="ri-menu-line"></i></span>
 
           </div>
 

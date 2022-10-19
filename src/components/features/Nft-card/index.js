@@ -1,2 +1,2 @@
-import Nft-card from "./Nft-card";
-export default Nft-card;
+import NftCard from "./Nft-card";
+export default NftCard;
