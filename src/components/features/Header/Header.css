@@ -41,12 +41,6 @@
     -webkit-text-fill-color: #14141f;
 }
 
-.nav__right .btn{
-    padding: 7px 25px;
-    border: 1px solid #5142fc;
-    border-radius: 50px;
-}
-
 .nav__right .btn a{
     color: #fff;
     text-decoration: none;
@@ -65,4 +59,11 @@
     color: #fff;
     font-size: 1.3rem;
     display: none;
+}
+
+.nav__right .btn {
+  padding: 7px 25px !important;
+  border-radius: 50px !important;
+  border: 1px solid #5142fc !important;
+  background: transparent;
 }

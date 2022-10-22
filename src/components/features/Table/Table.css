@@ -1,0 +1,16 @@
+tbody{
+    background: #fff;
+}
+
+.search_input{
+    margin-top: 50px !important;
+    margin-bottom: 20px !important;
+    width: 200px !important;
+    border-radius: 10px;
+    height: 40px;
+
+}
+
+.input_no{
+    display: none !important;
+}

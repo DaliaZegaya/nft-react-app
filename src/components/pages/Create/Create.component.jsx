@@ -29,7 +29,7 @@ function Create() {
 
             <Col lg="9" md="9" sm="6">
               <div className="create_item">
-                <form className="form_action">
+                <form className="form_action w-100">
 
                   <div className="form_input">
                     <label htmlFor="">Upload File</label>
@@ -70,7 +70,7 @@ function Create() {
                     <textarea name="" id="" rows="7" className="w-100" placeholder="Enter description"></textarea>
                   </div>
 
-                  <button className="singleNft_btn">Create</button>
+                  <button className="singleNft_btn text-center">Create</button>
 
                 </form>
               </div>

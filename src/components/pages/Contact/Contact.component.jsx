@@ -33,7 +33,7 @@ function Contact() {
                       <textarea rows="7" placeholder="Write message"></textarea>
                     </div>
 
-                    <button className="send_btn">Send a message</button>
+                    <button className="bid_btn">Send a message</button>
                   </form>
                 </div>
             </Col>

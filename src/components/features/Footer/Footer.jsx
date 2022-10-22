@@ -77,7 +77,6 @@ const Footer = () => {
               </h2>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptate, quod repellat! Quis quos dolorum tenetur fuga.
               </p>
             </div>
           </Col>

@@ -5,11 +5,14 @@ function Modal({setShowModal}) {
   return (
     <div className="modal_wrapper">
 
+      {/* <span className="close_modal">
+        <i class="ri-close-line" onClick={()=>setShowModal(false)}></i>
+      </span> */}
+
+      <div className="single_modal">
       <span className="close_modal">
         <i class="ri-close-line" onClick={()=>setShowModal(false)}></i>
       </span>
-
-      <div className="single_modal">
         <h6 className="text-center text-light">Place a Bid</h6>
         <p className="text-center text-light">
           You must bid at least <span className="money">5.89 ETH</span>

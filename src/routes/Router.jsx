@@ -1,5 +1,6 @@
 import React from "react";
 import {Route, Routes, Navigate} from 'react-router-dom'
+import Login from "../components/features/Login/Login";
 
 import About from '../components/pages/About/About.component'
 import Contact from '../components/pages/Contact/Contact.component'
@@ -10,11 +11,12 @@ import Market from '../components/pages/Market/Market.component'
 import NftDetails from '../components/pages/Nft-details/Nft-details.component'
 import SellerProfile from '../components/pages/Seller-profile/Seller-profile.component'
 import Wallet from '../components/pages/Wallet/Wallet.component'
+import Table from "../components/features/Table/Table"
 
 function Router(){
     return (
         <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route path="/" element={<Login/>} />
         <Route path="/home" element={<Home />} />
         <Route path="/market" element= {<Market/>} />
         <Route path="/create" element={<Create/>} />
@@ -22,8 +24,9 @@ function Router(){
         <Route path="/contact" element={<Contact/>} />
         <Route path="/edit-profile" element={<EditProfile/>} />
         <Route path="/seller-profile" element={<SellerProfile/>} />
-        <Route path="/wallet" element={<Wallet/>} />
+        <Route path="/login" element={<Login/>} />
         <Route path="/market/:id" element={<NftDetails/>} />
+        <Route path="/table" element={<Table/>} />
       </Routes>
 
     )

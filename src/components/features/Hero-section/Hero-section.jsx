@@ -12,7 +12,7 @@ function HeroSection() {
             <div className="hero_content">
               <h2>
                 Discover digital art and collect <br />
-                <span>sell extraordinary</span> NFTs
+                <span>sell extraordinary</span> NFTs 
               </h2>
               <p>
                 Lorem ipsum dolor,
