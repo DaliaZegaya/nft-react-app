@@ -15,9 +15,7 @@ function HeroSection() {
                 <span>sell extraordinary</span> NFTs 
               </h2>
               <p>
-                Lorem ipsum dolor,
-                 sit amet consectetur adipisicing elit. Corrupti itaque nihil 
-                 eius error quia debitis voluptatibus quaerat amet, cum qui.
+              Welcome to the NFT's world, here you can discover digital art, collect rare NFTs and also create your own NFTs.
               </p>
 
               <div className="hero_btns d-flex align-items-center gap-4">

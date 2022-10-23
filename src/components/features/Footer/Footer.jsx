@@ -17,11 +17,7 @@ const MY__ACCOUNT = [
   {
     display: "Collection",
     url: "/market",
-  },
-  {
-    display: "Edit Profile",
-    url: "/edit-profile",
-  },
+  }
 ];
 
 const RESOURCES = [
@@ -31,10 +27,6 @@ const RESOURCES = [
   },
   {
     display: "Partner",
-    url: "#",
-  },
-  {
-    display: "Community",
     url: "#",
   },
   {
@@ -50,10 +42,6 @@ const COMPANY = [
   },
   {
     display: "Career",
-    url: "#",
-  },
-  {
-    display: "Ranking",
     url: "#",
   },
   {
@@ -75,8 +63,8 @@ const Footer = () => {
                 </span>
                 NFTs
               </h2>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              <p className="footer_p">
+              NFT's world, here you can discover digital art, collect rare NFTs and also create your own NFTs.
               </p>
             </div>
           </Col>

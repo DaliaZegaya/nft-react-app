@@ -1,5 +1,5 @@
 import React from "react";
-import {Route, Routes, Navigate} from 'react-router-dom'
+import {Route, Routes} from 'react-router-dom'
 import Login from "../components/features/Login/Login";
 
 import About from '../components/pages/About/About.component'
@@ -10,7 +10,6 @@ import Home from '../components/pages/Home/Home.component'
 import Market from '../components/pages/Market/Market.component'
 import NftDetails from '../components/pages/Nft-details/Nft-details.component'
 import SellerProfile from '../components/pages/Seller-profile/Seller-profile.component'
-import Wallet from '../components/pages/Wallet/Wallet.component'
 import Table from "../components/features/Table/Table"
 
 function Router(){
