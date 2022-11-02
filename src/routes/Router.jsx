@@ -11,11 +11,13 @@ import Market from '../components/pages/Market/Market.component'
 import NftDetails from '../components/pages/Nft-details/Nft-details.component'
 import SellerProfile from '../components/pages/Seller-profile/Seller-profile.component'
 import Table from "../components/features/Table/Table"
+import SignUp from "../components/features/SingUp/SingUp";
+import Protected from "../components/features/Protected/Protected";
 
 function Router(){
     return (
         <Routes>
-        <Route path="/" element={<Login/>} />
+        <Route path="/" element={<Protected> <Home/> </Protected>} />
         <Route path="/home" element={<Home />} />
         <Route path="/market" element= {<Market/>} />
         <Route path="/create" element={<Create/>} />
@@ -24,6 +26,7 @@ function Router(){
         <Route path="/edit-profile" element={<EditProfile/>} />
         <Route path="/seller-profile" element={<SellerProfile/>} />
         <Route path="/login" element={<Login/>} />
+        <Route path="/singup" element={<SignUp/>} />
         <Route path="/market/:id" element={<NftDetails/>} />
         <Route path="/table" element={<Table/>} />
       </Routes>

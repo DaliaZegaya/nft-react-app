@@ -2,7 +2,7 @@ import "./Header.css";
 import React from "react";
 import { Container } from 'reactstrap'
 import { NavLink, Link } from "react-router-dom";
-
+import { useUserAuth } from '../../../contexts/userAuth.context'
 import { useState } from 'react';
 
 import {
@@ -44,6 +44,11 @@ const NAV_LINKS = [
 
 export default function App() {
   const [showNavText, setShowNavText] = useState(false);
+  const {logOut} = useUserAuth()
+
+  const handleLogOut = () => {
+    return logOut()
+  }
 
   return (
     <header className="header">
@@ -83,8 +88,8 @@ export default function App() {
               }
             </MDBNavbarNav>
             <span><i className="ri-user-line text-light"></i></span>
-            <Link to="login">
-              LOGIN
+            <Link to="login" onClick={handleLogOut}>
+              LOGOUT
             </Link>        </MDBCollapse>
         </MDBContainer>
       </MDBNavbar>

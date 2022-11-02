@@ -6,15 +6,17 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'remixicon/fonts/remixicon.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { UserAuthProvider } from '../src/contexts/userAuth.context'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <React.StrictMode>    
+  <UserAuthProvider>
     <Router>
       <App />
     </Router>
-    
+  </UserAuthProvider>
   </React.StrictMode>
 );
 
