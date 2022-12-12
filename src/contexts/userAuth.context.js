@@ -9,7 +9,6 @@ import {
     signInWithPopup,
     FacebookAuthProvider,
     sendPasswordResetEmail
-
 } from 'firebase/auth'
 
 import { auth } from '../firebase'
